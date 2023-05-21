@@ -1,0 +1,6 @@
+,CV Train,CV Test,CV Overfit,Test,Time
+One-hot Encoder + Logistic Regression,0.654,0.653,0.001,0.658,0.368
+Target Encoder + Logistic Regression,0.672,0.66,0.019,0.661,0.385
+Target + Poly Features + Logistic Regression,0.683,0.67,0.019,0.671,2.385
+Target + Poly Features + Logistic Regression + class weights,0.683,0.67,0.02,0.671,3.076
+Target + Poly Features + Undersampling + Logistic Regression,0.683,0.67,0.019,0.671,0.506

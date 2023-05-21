@@ -1,0 +1,5 @@
+,CV Train,CV Test,CV Overfit,Test,Time
+CatBoost,0.706,0.684,0.033,0.689,2.597
+CatBoost + class weights,0.71,0.682,0.042,0.692,2.715
+Oversampling + CatBoost,0.725,0.684,0.06,0.691,0.928
+Undersampling + CatBoost,0.707,0.688,0.027,0.695,0.745

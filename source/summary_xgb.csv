@@ -1,0 +1,5 @@
+,CV Train,CV Test,CV Overfit,Test,Time
+XGBoost,0.7,0.681,0.028,0.689,1.306
+XGBoost + class weights,0.702,0.681,0.032,0.689,1.323
+Oversampling + XGBoost,0.694,0.68,0.021,0.687,1.124
+Undersampling + XGBoost,0.694,0.676,0.027,0.685,0.274

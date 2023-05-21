@@ -1,0 +1,8 @@
+,CV Train,CV Test,CV Overfit,Test,Time
+Random Forest,0.706,0.675,0.045,0.681,2.075
+Random Forest + class weights,0.701,0.674,0.04,0.68,2.008
+Random Forest + subsample class weights,0.701,0.674,0.04,0.679,2.047
+Oversampling + Random Forest,0.699,0.675,0.035,0.679,1.531
+Undersampling + Random Forest,0.69,0.679,0.017,0.684,0.269
+Balanced Random Forest oversampling mode,0.715,0.681,0.05,0.686,2.853
+Balanced Random Forest undersampling mode,0.698,0.682,0.023,0.687,0.455
